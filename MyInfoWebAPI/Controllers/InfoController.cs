@@ -81,7 +81,7 @@ namespace MyInfoWebAPI.Controllers
 
         [HttpPut]
         [Route("[action]")]
-        public async Task<IActionResult> updateInfo(InfoUpdateRequestDTO requestDTO)
+        public async Task<IActionResult> updateMyInfo(InfoUpdateRequestDTO requestDTO)
         {
             ResultWithDataDTO<int> resultWithDataDTO =
                 new ResultWithDataDTO<int> { IsSuccessful = false };
