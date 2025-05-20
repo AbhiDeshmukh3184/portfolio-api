@@ -1,0 +1,3 @@
+﻿SC> Scaffold-DbContext "server=127.0.0.1;port=3306;user=root;password=Abhi@3184;database=my-info" MySql.Data.EntityFrameworkCore -o DataModel -f
+
+dotnet ef dbcontext scaffold "server=127.0.0.1;port=3306;user=root;password=Abhi@3184;database=my-info" Pomelo.EntityFrameworkCore.MySql -o DataModel -f --context MyInfoContext --no-pluralize
